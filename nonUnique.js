@@ -16,4 +16,4 @@ const findNonUnique = array => {
 
 const test = findNonUnique([1,2,2,2,3,4,5,6,7,8,9,0,0,0])
 
-console.log(test) // [ 0, 0, 2, 2 ]
+console.log(test) // [ 0, 2 ]
