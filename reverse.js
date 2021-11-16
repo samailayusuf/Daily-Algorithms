@@ -11,13 +11,8 @@ function spinWords(string){
       }else{
         resultArray.push(element)  
       }
-      
     }
-    
     return resultArray.join(' ')
-      
-    
-    
   }
 
   const test = spinWords("yusuf is a good boy")
