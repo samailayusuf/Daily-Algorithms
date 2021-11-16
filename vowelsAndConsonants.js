@@ -1,6 +1,7 @@
 const check = string => {
     const text = string.toLowerCase().split('')
-    const vowels = ['a','i', 'o', 'u', 'e']
+    const vowels = [
+        'a','i', 'o', 'u', 'e']
 
     //console.log(text)
 
