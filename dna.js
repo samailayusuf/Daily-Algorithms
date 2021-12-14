@@ -3,7 +3,6 @@ function DNAStrand(dna){
     var dnaStr = dna.split('')
     console.log(dnaStr)
     
-    
     for (let i=0; i<dnaStr.length; i++){
       if(dnaStr[i] === "A"){
         dnaStr[i] = "T"
