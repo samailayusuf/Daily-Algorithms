@@ -13,6 +13,7 @@ const groupLetters = text => {
             consonantLetters.push(element)
         }
     }
+    
     //console.log(vowelLetters +": "+ consonantLetters)
     const result = vowelLetters.join('') + consonantLetters.join('')
 
